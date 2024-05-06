@@ -30,7 +30,8 @@ export default function RootLayout({ children }: LayoutProps) {
 						target="_blank"
 					>
 						RAWG
-					</a>
+					</a>{" "}
+					| Deployed on Vercel
 				</footer>
 			</body>
 		</html>
