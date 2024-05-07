@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "id": 7,
+      "attributes": {
+        "slug": "firewatch",
+        "title": "Firewatch",
+        "subtitle": "A Captivating Journey through Solitude and Mystery",
+        "publishedAt": "2023-05-06T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "url": "/uploads/firewatch_16858eafba.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "slug": "hades-2018",
+        "title": "Hades",
+        "subtitle": "A Rogue-Like Gem that Ascends to Greatness",
+        "publishedAt": "2023-05-28T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "url": "/uploads/hades_2018_bff8e28a82.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "slug": "ark-survival-of-the-fittest",
+        "title": "ARK: Survival Of The Fittest",
+        "subtitle": "A Thrilling Battle Royale in the Prehistoric World",
+        "publishedAt": "2023-05-10T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 9,
+            "attributes": {
+              "url": "/uploads/ark_survival_of_the_fittest_37eebfbd52.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "slug": "warhammer-vermintide-2",
+        "title": "Warhammer: Vermintide 2",
+        "subtitle": "A Stunning Co-op Action Experience",
+        "publishedAt": "2023-05-22T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "url": "/uploads/warhammer_vermintide_2_0634bcc7ee.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "slug": "cuphead",
+        "title": "Cuphead",
+        "subtitle": "A Challenging and Visually Stunning Ode to Classic Animation",
+        "publishedAt": "2023-05-19T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 11,
+            "attributes": {
+              "url": "/uploads/cuphead_14fced8b9a.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "slug": "layers-of-fear",
+        "title": "Layers of Fear",
+        "subtitle": "An Enthralling Descent into Madness",
+        "publishedAt": "2023-05-07T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 12,
+            "attributes": {
+              "url": "/uploads/layers_of_fear_5c71de35ec.jpg"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 2,
+      "pageSize": 6,
+      "pageCount": 5,
+      "total": 25
+    }
+  }
+}
