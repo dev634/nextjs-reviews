@@ -4,8 +4,11 @@ import { getReviews } from "@/lib/reviews";
 import Heading from "@/components/Heading";
 
 export default async function HomePage() {
-	const reviews = await getReviews(3);
-
+	const { reviews } = await getReviews(3);
+	console.log(
+		"[HomePage] slugs : ",
+		reviews.map((review) => review.slug).join(", ")
+	);
 	return (
 		<>
 			<Heading>Indie gamers</Heading>
