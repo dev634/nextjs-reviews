@@ -10,11 +10,11 @@ export async function generateMetadata({ params: { slug } }) {
 	};
 }
 
-export async function generateStaticParams() {
-	const slugs = await getSlugs();
-	//console.log("[ReviewPage] generateStaticParams : ", slugs);
-	return slugs.map((slug) => ({ slug }));
-}
+// export async function generateStaticParams() {
+// 	const slugs = await getSlugs();
+// 	//console.log("[ReviewPage] generateStaticParams : ", slugs);
+// 	return slugs.map((slug) => ({ slug }));
+// }
 
 export default async function ReviewPage({ params: { slug } }) {
 	const review = await getReview(slug);
