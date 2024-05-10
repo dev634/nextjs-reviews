@@ -2,10 +2,11 @@
 	"name": "next-reviews",
 	"private": true,
 	"scripts": {
-		"build": "rimraf .next & next build",
-		"dev": "next dev",
+		"build": "NODE_ENV=production & rimraf .next & next build",
+		"dev": "NODE_ENV=development & next dev",
 		"lint": "next lint",
 		"start": "next start",
+		"backprod": "NODE_ENV=preprod & next dev",
 		"prod": "npm run build & npm run start"
 	},
 	"dependencies": {

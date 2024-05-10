@@ -1,3 +1,5 @@
+console.log("[next.config.js] : ", process.env);
+
 /**@type {import ('next').NextConfig} */
 module.exports = {
 	images: {
