@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 24,
+      "id": 23,
       "attributes": {
         "slug": "celeste-2",
         "title": "Celeste 2 update 1",
@@ -11,7 +11,7 @@
           "data": {
             "id": 24,
             "attributes": {
-              "url": "/uploads/celeste_3c79fbc678.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/celeste_3c79fbc678.jpg"
             }
           }
         }
@@ -28,7 +28,7 @@
           "data": {
             "id": 8,
             "attributes": {
-              "url": "/uploads/hades_2018_bff8e28a82.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/hades_2018_bff8e28a82.jpg"
             }
           }
         }
@@ -45,14 +45,14 @@
           "data": {
             "id": 5,
             "attributes": {
-              "url": "/uploads/fall_guys_9f9b386677.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/fall_guys_9f9b386677.jpg"
             }
           }
         }
       }
     },
     {
-      "id": 23,
+      "id": 22,
       "attributes": {
         "slug": "black-mesa",
         "title": "Black Mesa",
@@ -62,14 +62,14 @@
           "data": {
             "id": 23,
             "attributes": {
-              "url": "/uploads/black_mesa_f27df07b74.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/black_mesa_f27df07b74.jpg"
             }
           }
         }
       }
     },
     {
-      "id": 14,
+      "id": 13,
       "attributes": {
         "slug": "disco-elysium",
         "title": "Disco Elysium",
@@ -79,14 +79,14 @@
           "data": {
             "id": 14,
             "attributes": {
-              "url": "/uploads/disco_elysium_897a229c9a.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/disco_elysium_897a229c9a.jpg"
             }
           }
         }
       }
     },
     {
-      "id": 15,
+      "id": 14,
       "attributes": {
         "slug": "dead-cells",
         "title": "Dead Cells",
@@ -96,7 +96,7 @@
           "data": {
             "id": 15,
             "attributes": {
-              "url": "/uploads/dead_cells_de459ea5a7.jpg"
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/dead_cells_de459ea5a7.jpg"
             }
           }
         }

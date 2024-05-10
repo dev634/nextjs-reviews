@@ -26,7 +26,8 @@
 		".next/types/**/*.ts",
 		"**/*.ts",
 		"**/*.tsx",
-		".next/types/app/reviews/stardew-valley/page.tsx"
+		".next/types/app/reviews/stardew-valley/page.tsx",
+		"components/SearchBox.tsx"
 	],
 	"exclude": ["node_modules"]
 }

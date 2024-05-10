@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import qs from "qs";
 
 const url =
-	"http://localhost:1337/api/reviews?" +
+	"https://miraculous-basketball-9833c81dea.strapiapp.com/api/reviews?" +
 	qs.stringify(
 		{
 			fields: ["slug", "title", "subtitle", "publishedAt"],

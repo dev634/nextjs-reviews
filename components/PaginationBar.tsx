@@ -17,7 +17,7 @@ export default function PaginationBar({
 	pageCount,
 }: PaginationBarProps) {
 	return (
-		<div className="flex gap-2 pb-3">
+		<div className="flex gap-2">
 			<PaginationLink
 				href="/reviews"
 				page={page}
