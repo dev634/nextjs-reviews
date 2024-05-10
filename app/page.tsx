@@ -1,14 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, makeImageUrl } from "@/lib/reviews";
 import Heading from "@/components/Heading";
 
 export default async function HomePage() {
 	const { reviews } = await getReviews(3);
-	// console.log(
-	// 	"[HomePage] slugs : ",
-	// 	reviews.map((review) => new URL(review.image).pathname).join(", ")
+
+	// reviews.map((review) =>
+	// 	console.log("[HomePage] slugs : ", new URL(review.image))
 	// );
+
 	return (
 		<>
 			<Heading>Indie gamers</Heading>
@@ -26,8 +27,11 @@ export default async function HomePage() {
 							<Image
 								className="rounded-t sm:rounded-l sm:rounded-r-none"
 								src={
-									process.env.CMS_IMAGE_PATTERN_PROD +
-									new URL(review.image).pathname
+									makeImageUrl(process.env.NODE_ENV) +
+									new URL(review.image).pathname.replace(
+										"uploads/",
+										""
+									)
 								}
 								alt=""
 								width="320"

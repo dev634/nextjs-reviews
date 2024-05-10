@@ -15,8 +15,8 @@ module.exports = {
 
 function toRemotePattern(urlString) {
 	const url = new URL(urlString);
-	//console.log("[toRemotePattern] : ", url);
-
+	console.log("[toRemotePattern] : ", url);
+	// console.log("[toRemotePattern] process.env: ", process.env);
 	if (process.env.NODE_ENV === "development") {
 		if (process.env.APP_ENV === "preprod") {
 			return {
@@ -28,7 +28,7 @@ function toRemotePattern(urlString) {
 			protocol: url.protocol.replace(":", ""),
 			hostname: url.hostname,
 			port: url.port,
-			pathname: url.pathname,
+			pathname: url.pathname + "/**",
 		};
 	}
 
