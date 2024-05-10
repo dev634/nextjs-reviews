@@ -27,7 +27,7 @@ export default async function ReviewPage({ params: { slug } }) {
 	if (!review) {
 		notFound();
 	}
-	console.log("[ReviewPage] slug : ", slug);
+	// console.log("[ReviewPage] slug : ", slug);
 	return (
 		<>
 			<Heading>{review.title}</Heading>

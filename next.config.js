@@ -15,7 +15,7 @@ module.exports = {
 
 function toRemotePattern(urlString) {
 	const url = new URL(urlString);
-	console.log("[toRemotePattern] : ", url);
+	//console.log("[toRemotePattern] : ", url);
 
 	if (process.env.NODE_ENV === "development") {
 		if (process.env.APP_ENV === "preprod") {
