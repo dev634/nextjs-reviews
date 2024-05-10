@@ -22,7 +22,6 @@ function toRemotePattern(urlString) {
 			return {
 				protocol: url.protocol.replace(":", ""),
 				hostname: url.hostname,
-				port: "",
 			};
 		}
 		return {
@@ -36,7 +35,5 @@ function toRemotePattern(urlString) {
 	return {
 		protocol: url.protocol.replace(":", ""),
 		hostname: url.hostname,
-		port: "",
-		pathname: url.pathname,
 	};
 }

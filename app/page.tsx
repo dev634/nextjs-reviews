@@ -5,10 +5,10 @@ import Heading from "@/components/Heading";
 
 export default async function HomePage() {
 	const { reviews } = await getReviews(3);
-	console.log(
-		"[HomePage] slugs : ",
-		reviews.map((review) => new URL(review.image).pathname).join(", ")
-	);
+	// console.log(
+	// 	"[HomePage] slugs : ",
+	// 	reviews.map((review) => new URL(review.image).pathname).join(", ")
+	// );
 	return (
 		<>
 			<Heading>Indie gamers</Heading>
