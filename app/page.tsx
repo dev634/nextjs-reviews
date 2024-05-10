@@ -7,7 +7,7 @@ export default async function HomePage() {
 	const { reviews } = await getReviews(3);
 	console.log(
 		"[HomePage] slugs : ",
-		reviews.map((review) => review.slug).join(", ")
+		reviews.map((review) => new URL(review.image).pathname).join(", ")
 	);
 	return (
 		<>
@@ -25,7 +25,10 @@ export default async function HomePage() {
 						>
 							<Image
 								className="rounded-t sm:rounded-l sm:rounded-r-none"
-								src={review.image}
+								src={
+									process.env.CMS_IMAGE_PATTERN_PROD +
+									new URL(review.image).pathname
+								}
 								alt=""
 								width="320"
 								height="180"
