@@ -2,7 +2,7 @@
 	"name": "next-reviews",
 	"private": true,
 	"scripts": {
-		"build": "rimraf .next & next build",
+		"build": "prisma generate & rimraf .next & next build",
 		"dev": "next dev",
 		"lint": "next lint",
 		"start": "next start",
