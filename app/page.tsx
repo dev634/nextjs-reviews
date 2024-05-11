@@ -6,7 +6,7 @@ import Heading from "@/components/Heading";
 export default async function HomePage() {
 	const { reviews } = await getReviews(3);
 	// console.log("[HomePage][reviews] : ", reviews);
-	reviews.map((review) => console.log("[HomePage] slugs : ", review));
+	//reviews.map((review) => console.log("[HomePage] slugs : ", review));
 
 	return (
 		<>

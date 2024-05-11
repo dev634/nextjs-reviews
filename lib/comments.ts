@@ -1,12 +1,13 @@
 import { db } from "./db";
+import type { Comment } from "@prisma/client";
 
-type createPayload = {
-	slug: string;
-	message: string;
-	user: string;
-};
+export type CreateCommentData = Omit<Comment, "id" | "postedAt">;
 
-export async function createComment({ slug, user, message }: createPayload) {
+export async function createComment({
+	slug,
+	user,
+	message,
+}: CreateCommentData) {
 	return await db.comment.create({
 		data: {
 			slug,
