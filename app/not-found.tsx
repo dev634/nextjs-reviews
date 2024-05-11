@@ -1,7 +1,7 @@
 import Heading from "@/components/Heading";
 
 export const metadata = {
-	title: "About",
+	title: "Abou",
 };
 
 export default function NotFoundPage() {
