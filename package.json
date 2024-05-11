@@ -8,7 +8,7 @@
 		"start": "next start",
 		"ngrok:domain": "ngrok http --domain=roughly-civil-macaque.ngrok-free.app 3000",
 		"ngrok": "ngrok http 3000",
-		"backprod": "APP_ENV=preprod & next dev",
+		"backprod": "next dev",
 		"prod": "npm run build & npm run start"
 	},
 	"dependencies": {

@@ -24,13 +24,10 @@ export default async function HomePage() {
 						>
 							<Image
 								className="rounded-t sm:rounded-l sm:rounded-r-none"
-								src={
-									makeImageUrl(process.env.NODE_ENV) +
-									new URL(review.image).pathname.replace(
-										"uploads/",
-										""
-									)
-								}
+								src={makeImageUrl(
+									process.env.NODE_ENV,
+									review.image
+								)}
 								alt=""
 								width="320"
 								height="180"

@@ -2,11 +2,12 @@
 
 /**@type {import ('next').NextConfig} */
 module.exports = {
+	env: {
+		APP_ENV: "preprod",
+	},
 	images: {
 		unoptimized: true,
-		remotePatterns: [
-			toRemotePattern(process.env.APP_ENV || process.env.NODE_ENV),
-		],
+		remotePatterns: [toRemotePattern(process.env.NODE_ENV)],
 	},
 };
 
@@ -14,16 +15,16 @@ function toRemotePattern(env) {
 	let url = "";
 
 	console.log("[toRemotePattern] process.env: ", env);
-	if (env === "preprod") {
-		url = new URL(process.env.CMS_IMAGE_PATTERN_PREPROD);
-		console.log("[toRemotePattern] preprod : ", url);
-		return {
-			protocol: url.protocol.replace(":", ""),
-			hostname: url.hostname,
-		};
-	}
 
 	if (env === "development") {
+		if (process.env.APP_ENV === "preprod") {
+			url = new URL(process.env.CMS_IMAGE_PATTERN_PREPROD);
+			console.log("[toRemotePattern] preprod : ", url);
+			return {
+				protocol: url.protocol.replace(":", ""),
+				hostname: url.hostname,
+			};
+		}
 		url = new URL(process.env.CMS_IMAGE_PATTERN);
 		console.log("[toRemotePattern] : ", url);
 		return {
