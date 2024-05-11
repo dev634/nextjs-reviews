@@ -32,7 +32,7 @@ function toRemotePattern() {
 	}
 
 	url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
-	// console.log("[toRemotePattern] url : ", url);
+
 	return {
 		protocol: url.protocol.replace(":", ""),
 		hostname: url.hostname,
