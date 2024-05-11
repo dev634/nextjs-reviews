@@ -1,37 +1,23 @@
-import { createComment } from "@/lib/comments";
-import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
+import { createCommentAction } from "@/app/reviews/[slug]/actions";
 
 export interface CommentFormProps {
 	title: string;
 	slug: string;
 }
 
-export default function CommentForm({ title, slug }: CommentFormProps) {
-	async function action(formData) {
-		"use server";
-		// console.log("[CommentForm][action][user] : ", formData.get("user"));
-		// console.log(
-		// 	"[CommentForm][action][message] : ",
-		// 	formData.get("message")
-		// );
-		const createdComment = await createComment({
-			slug,
-			user: formData.get("user"),
-			message: formData.get("message"),
-		});
-		console.log("[CommentForm][createComment] : ", createdComment);
-		revalidatePath(`/reviews/${slug}`);
-		redirect(`/reviews/${slug}`);
-	}
+export default function CommentForm({
+	title,
+	slug,
+}: Readonly<CommentFormProps>) {
 	return (
 		<form
 			className="border bg-white flex flex-col gap-2 mt-3 px-3 py-3 rounded"
-			action={action}
+			action={createCommentAction}
 		>
 			<p className="pb-1">
 				Already played <strong>{title}</strong>? Have your say!
 			</p>
+			<input type="hidden" name="slug" value={slug} />
 			<div className="flex">
 				<label htmlFor="userField" className="shrink-0 w-32">
 					Your name
@@ -40,6 +26,8 @@ export default function CommentForm({ title, slug }: CommentFormProps) {
 					id="userField"
 					className="border px-2 py-1 rounded w-48"
 					name="user"
+					required
+					maxLength={50}
 				/>
 			</div>
 			<div className="flex">
@@ -50,6 +38,8 @@ export default function CommentForm({ title, slug }: CommentFormProps) {
 					id="messageField"
 					className="border px-2 py-1 rounded w-full"
 					name="message"
+					required
+					maxLength={500}
 				/>
 			</div>
 			<button

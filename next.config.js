@@ -2,31 +2,27 @@
 
 /**@type {import ('next').NextConfig} */
 module.exports = {
-	env: {
-		APP_ENV: "preprod",
-	},
 	images: {
-		unoptimized: true,
-		remotePatterns: [toRemotePattern(process.env.NODE_ENV)],
+		remotePatterns: [toRemotePattern()],
 	},
 };
 
-function toRemotePattern(env) {
+function toRemotePattern() {
 	let url = "";
 
-	console.log("[toRemotePattern] process.env: ", env);
+	// console.log("[toRemotePattern] process.env: ", env);
 
-	if (env === "development") {
+	if (process.env.NODE_ENV === "development") {
 		if (process.env.APP_ENV === "preprod") {
 			url = new URL(process.env.CMS_IMAGE_PATTERN_PREPROD);
-			console.log("[toRemotePattern] preprod : ", url);
+			console.log("[toRemotePattern][preprod] : ", url);
 			return {
 				protocol: url.protocol.replace(":", ""),
 				hostname: url.hostname,
 			};
 		}
-		url = new URL(process.env.CMS_IMAGE_PATTERN);
-		console.log("[toRemotePattern] : ", url);
+		url = new URL(process.env.CMS_IMAGE_PATTERN_PREPROD);
+
 		return {
 			protocol: url.protocol.replace(":", ""),
 			hostname: url.hostname,
@@ -35,7 +31,7 @@ function toRemotePattern(env) {
 		};
 	}
 	url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
-	console.log("[toRemotePattern] url : ", url);
+	// console.log("[toRemotePattern] url : ", url);
 	return {
 		protocol: url.protocol.replace(":", ""),
 		hostname: url.hostname,

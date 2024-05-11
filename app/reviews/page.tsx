@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { getReviews } from "@/lib/reviews";
+import { getReviews, makeImageUrl } from "@/lib/reviews";
 import Heading from "../../components/Heading";
 import SearchBox from "@/components/SearchBox";
 import PaginationBar from "@/components/PaginationBar";
@@ -39,7 +39,10 @@ export default async function ReviewsPage({ searchParams }) {
 							<Link href={`/reviews/${review.slug}`}>
 								<Image
 									className="rounded-t"
-									src={review.image}
+									src={makeImageUrl(
+										process.env.NODE_ENV,
+										review.image
+									)}
 									alt=""
 									width="320"
 									height="180"

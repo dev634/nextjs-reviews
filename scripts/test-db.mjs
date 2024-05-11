@@ -25,3 +25,13 @@ const db = new PrismaClient({
 // });
 
 // console.log("[test-db] deleted : ", deleted);
+
+// const deletedMany = await db.comment.deleteMany({
+// 	where: {
+// 		user: {
+// 			in: ["Test", "test", "Matt"],
+// 		},
+// 	},
+// });
+
+// console.log("[test-db] deletedMany : ", deletedMany);
