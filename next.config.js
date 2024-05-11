@@ -30,8 +30,9 @@ function toRemotePattern() {
 			pathname: url.pathname + "/**",
 		};
 	}
+
 	url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
-	// console.log("[toRemotePattern] url : ", url);
+	console.log("[toRemotePattern] url : ", url);
 	return {
 		protocol: url.protocol.replace(":", ""),
 		hostname: url.hostname,
