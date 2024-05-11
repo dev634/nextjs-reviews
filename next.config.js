@@ -5,26 +5,27 @@ module.exports = {
 	images: {
 		unoptimized: true,
 		remotePatterns: [
-			toRemotePattern(
-				process.env.APP_ENV === "preprod"
-					? process.env.CMS_IMAGE_PATTERN_PROD
-					: process.env.CMS_IMAGE_PATTERN
-			),
+			toRemotePattern(process.env.APP_ENV || process.env.NODE_ENV),
 		],
 	},
 };
 
-function toRemotePattern(urlString) {
-	const url = new URL(urlString);
-	// console.log("[toRemotePattern] : ", url);
-	// console.log("[toRemotePattern] process.env: ", process.env);
-	if (process.env.NODE_ENV === "development") {
-		if (process.env.APP_ENV === "preprod") {
-			return {
-				protocol: url.protocol.replace(":", ""),
-				hostname: url.hostname,
-			};
-		}
+function toRemotePattern(env) {
+	let url = "";
+
+	console.log("[toRemotePattern] process.env: ", env);
+	if (env === "preprod") {
+		url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
+		console.log("[toRemotePattern] preprod : ", url);
+		return {
+			protocol: url.protocol.replace(":", ""),
+			hostname: url.hostname,
+		};
+	}
+
+	if (env === "development") {
+		url = new URL(process.env.CMS_IMAGE_PATTERN);
+		console.log("[toRemotePattern] : ", url);
 		return {
 			protocol: url.protocol.replace(":", ""),
 			hostname: url.hostname,
@@ -32,7 +33,8 @@ function toRemotePattern(urlString) {
 			pathname: url.pathname + "/**",
 		};
 	}
-
+	url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
+	console.log("[toRemotePattern] url : ", url);
 	return {
 		protocol: url.protocol.replace(":", ""),
 		hostname: url.hostname,
