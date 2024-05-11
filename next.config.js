@@ -15,7 +15,7 @@ function toRemotePattern(env) {
 
 	console.log("[toRemotePattern] process.env: ", env);
 	if (env === "preprod") {
-		url = new URL(process.env.CMS_IMAGE_PATTERN_PROD);
+		url = new URL(process.env.CMS_IMAGE_PATTERN_PREPROD);
 		console.log("[toRemotePattern] preprod : ", url);
 		return {
 			protocol: url.protocol.replace(":", ""),
