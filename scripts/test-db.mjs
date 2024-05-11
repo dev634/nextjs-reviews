@@ -18,4 +18,10 @@ const db = new PrismaClient({
 
 // console.log("[test-db] selecteds : ", comments);
 
-:
+// const deleted = await db.comment.delete({
+// 	where: {
+// 		id: "b4a7487f-e121-4c6c-aed9-b62daff2de47",
+// 	},
+// });
+
+// console.log("[test-db] deleted : ", deleted);

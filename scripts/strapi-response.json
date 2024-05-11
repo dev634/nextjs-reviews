@@ -1,0 +1,474 @@
+{
+  "data": [
+    {
+      "id": 8,
+      "attributes": {
+        "slug": "hades-2018",
+        "title": "Hades",
+        "subtitle": "A Rogue-Like Gem that Ascends to Greatness",
+        "publishedAt": "2023-05-28T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "name": "hades-2018.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_hades_2018_bff8e28a82.jpg",
+                  "hash": "large_hades_2018_bff8e28a82",
+                  "mime": "image/jpeg",
+                  "name": "large_hades-2018.jpg",
+                  "path": null,
+                  "size": 98.53,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_hades_2018_bff8e28a82.jpg",
+                  "hash": "small_hades_2018_bff8e28a82",
+                  "mime": "image/jpeg",
+                  "name": "small_hades-2018.jpg",
+                  "path": null,
+                  "size": 30.66,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_hades_2018_bff8e28a82.jpg",
+                  "hash": "medium_hades_2018_bff8e28a82",
+                  "mime": "image/jpeg",
+                  "name": "medium_hades-2018.jpg",
+                  "path": null,
+                  "size": 61.3,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_hades_2018_bff8e28a82.jpg",
+                  "hash": "thumbnail_hades_2018_bff8e28a82",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_hades-2018.jpg",
+                  "path": null,
+                  "size": 8.75,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "hades_2018_bff8e28a82",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 145.68,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/hades_2018_bff8e28a82.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:41.921Z",
+              "updatedAt": "2024-05-09T20:49:41.499Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "slug": "fall-guys",
+        "title": "Fall Guys: Ultimate Knockout",
+        "subtitle": "A Whimsical Party Game for Endless Fun",
+        "publishedAt": "2023-05-27T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "name": "fall-guys.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_fall_guys_9f9b386677.jpg",
+                  "hash": "large_fall_guys_9f9b386677",
+                  "mime": "image/jpeg",
+                  "name": "large_fall-guys.jpg",
+                  "path": null,
+                  "size": 78.57,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_fall_guys_9f9b386677.jpg",
+                  "hash": "small_fall_guys_9f9b386677",
+                  "mime": "image/jpeg",
+                  "name": "small_fall-guys.jpg",
+                  "path": null,
+                  "size": 28.14,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_fall_guys_9f9b386677.jpg",
+                  "hash": "medium_fall_guys_9f9b386677",
+                  "mime": "image/jpeg",
+                  "name": "medium_fall-guys.jpg",
+                  "path": null,
+                  "size": 51.04,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_fall_guys_9f9b386677.jpg",
+                  "hash": "thumbnail_fall_guys_9f9b386677",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_fall-guys.jpg",
+                  "path": null,
+                  "size": 9.71,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "fall_guys_9f9b386677",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 107.85,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/fall_guys_9f9b386677.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:39.486Z",
+              "updatedAt": "2024-05-09T20:49:38.677Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "attributes": {
+        "slug": "black-mesa",
+        "title": "Black Mesa",
+        "subtitle": "A Masterful Reimagining of a Gaming Classic",
+        "publishedAt": "2023-05-26T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 23,
+            "attributes": {
+              "name": "black-mesa.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_black_mesa_f27df07b74.jpg",
+                  "hash": "large_black_mesa_f27df07b74",
+                  "mime": "image/jpeg",
+                  "name": "large_black-mesa.jpg",
+                  "path": null,
+                  "size": 60.42,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_black_mesa_f27df07b74.jpg",
+                  "hash": "small_black_mesa_f27df07b74",
+                  "mime": "image/jpeg",
+                  "name": "small_black-mesa.jpg",
+                  "path": null,
+                  "size": 20.44,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_black_mesa_f27df07b74.jpg",
+                  "hash": "medium_black_mesa_f27df07b74",
+                  "mime": "image/jpeg",
+                  "name": "medium_black-mesa.jpg",
+                  "path": null,
+                  "size": 38.64,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_black_mesa_f27df07b74.jpg",
+                  "hash": "thumbnail_black_mesa_f27df07b74",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_black-mesa.jpg",
+                  "path": null,
+                  "size": 6.46,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "black_mesa_f27df07b74",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 86.29,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/black_mesa_f27df07b74.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:53.836Z",
+              "updatedAt": "2024-05-09T20:50:13.559Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "slug": "disco-elysium",
+        "title": "Disco Elysium",
+        "subtitle": "A Mind-Bending Masterpiece of Narrative Brilliance",
+        "publishedAt": "2023-05-25T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "disco-elysium.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_disco_elysium_897a229c9a.jpg",
+                  "hash": "large_disco_elysium_897a229c9a",
+                  "mime": "image/jpeg",
+                  "name": "large_disco-elysium.jpg",
+                  "path": null,
+                  "size": 126.91,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_disco_elysium_897a229c9a.jpg",
+                  "hash": "small_disco_elysium_897a229c9a",
+                  "mime": "image/jpeg",
+                  "name": "small_disco-elysium.jpg",
+                  "path": null,
+                  "size": 40.36,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_disco_elysium_897a229c9a.jpg",
+                  "hash": "medium_disco_elysium_897a229c9a",
+                  "mime": "image/jpeg",
+                  "name": "medium_disco-elysium.jpg",
+                  "path": null,
+                  "size": 79.13,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_disco_elysium_897a229c9a.jpg",
+                  "hash": "thumbnail_disco_elysium_897a229c9a",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_disco-elysium.jpg",
+                  "path": null,
+                  "size": 11.96,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "disco_elysium_897a229c9a",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 182.57,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/disco_elysium_897a229c9a.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:46.585Z",
+              "updatedAt": "2024-05-09T20:49:56.088Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "slug": "dead-cells",
+        "title": "Dead Cells",
+        "subtitle": "An Electrifying Symphony of Rogue-like Action",
+        "publishedAt": "2023-05-24T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "dead-cells.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_dead_cells_de459ea5a7.jpg",
+                  "hash": "large_dead_cells_de459ea5a7",
+                  "mime": "image/jpeg",
+                  "name": "large_dead-cells.jpg",
+                  "path": null,
+                  "size": 67.04,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_dead_cells_de459ea5a7.jpg",
+                  "hash": "small_dead_cells_de459ea5a7",
+                  "mime": "image/jpeg",
+                  "name": "small_dead-cells.jpg",
+                  "path": null,
+                  "size": 23.23,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_dead_cells_de459ea5a7.jpg",
+                  "hash": "medium_dead_cells_de459ea5a7",
+                  "mime": "image/jpeg",
+                  "name": "medium_dead-cells.jpg",
+                  "path": null,
+                  "size": 42.91,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_dead_cells_de459ea5a7.jpg",
+                  "hash": "thumbnail_dead_cells_de459ea5a7",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_dead-cells.jpg",
+                  "path": null,
+                  "size": 7.47,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "dead_cells_de459ea5a7",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 95.97,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/dead_cells_de459ea5a7.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:47.326Z",
+              "updatedAt": "2024-05-09T20:49:57.002Z"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "attributes": {
+        "slug": "a-way-out-2018",
+        "title": "A Way Out",
+        "subtitle": "A Riveting Co-op Adventure That Pushes Boundaries",
+        "publishedAt": "2023-05-23T11:00:00.000Z",
+        "image": {
+          "data": {
+            "id": 22,
+            "attributes": {
+              "name": "a-way-out-2018.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/large_a_way_out_2018_8efe22cb7f.jpg",
+                  "hash": "large_a_way_out_2018_8efe22cb7f",
+                  "mime": "image/jpeg",
+                  "name": "large_a-way-out-2018.jpg",
+                  "path": null,
+                  "size": 72.8,
+                  "width": 1000,
+                  "height": 563
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/small_a_way_out_2018_8efe22cb7f.jpg",
+                  "hash": "small_a_way_out_2018_8efe22cb7f",
+                  "mime": "image/jpeg",
+                  "name": "small_a-way-out-2018.jpg",
+                  "path": null,
+                  "size": 21.28,
+                  "width": 500,
+                  "height": 281
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/medium_a_way_out_2018_8efe22cb7f.jpg",
+                  "hash": "medium_a_way_out_2018_8efe22cb7f",
+                  "mime": "image/jpeg",
+                  "name": "medium_a-way-out-2018.jpg",
+                  "path": null,
+                  "size": 43.69,
+                  "width": 750,
+                  "height": 422
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/thumbnail_a_way_out_2018_8efe22cb7f.jpg",
+                  "hash": "thumbnail_a_way_out_2018_8efe22cb7f",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_a-way-out-2018.jpg",
+                  "path": null,
+                  "size": 6.14,
+                  "width": 245,
+                  "height": 138
+                }
+              },
+              "hash": "a_way_out_2018_8efe22cb7f",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 108.49,
+              "url": "https://miraculous-basketball-9833c81dea.media.strapiapp.com/a_way_out_2018_8efe22cb7f.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-strapi-cloud",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:52.989Z",
+              "updatedAt": "2024-05-09T20:50:12.660Z"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 6,
+      "pageCount": 4,
+      "total": 23
+    }
+  }
+}

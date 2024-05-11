@@ -3,6 +3,7 @@
 /**@type {import ('next').NextConfig} */
 module.exports = {
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			toRemotePattern(
 				process.env.APP_ENV === "preprod"
@@ -15,7 +16,7 @@ module.exports = {
 
 function toRemotePattern(urlString) {
 	const url = new URL(urlString);
-	console.log("[toRemotePattern] : ", url);
+	// console.log("[toRemotePattern] : ", url);
 	// console.log("[toRemotePattern] process.env: ", process.env);
 	if (process.env.NODE_ENV === "development") {
 		if (process.env.APP_ENV === "preprod") {

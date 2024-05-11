@@ -21,5 +21,6 @@ export async function getComments(slug) {
 		where: {
 			slug,
 		},
+		orderBy: { postedAt: "desc" },
 	});
 }
